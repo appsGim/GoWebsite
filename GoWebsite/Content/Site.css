@@ -1,7 +1,4 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
+﻿
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -21,4 +18,69 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+
+.logo-text {
+    position: relative;
+    top: 20%;
+    margin-left: 25%;
+}
+
+.logo {
+    width: 25% !important;
+    
+}
+
+
+
+.hader-logo {
+    width: auto;
+}
+u {
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: #ff0000 1vh solid;
+    width: 9%;
+}
+.img-underline {
+    background-image: url('../Img/640x1550/line.png');
+    background-repeat: no-repeat;
+    display: block; 
+}
+.triangular-icon {
+    background-image: url('../Img/640x1550/arrow.png');
+    background-repeat: no-repeat;
+    padding-left: 30px; /* width of the image plus a little extra padding */
+    display: block; /* may not need this, but I've found I do */
+}
+
+.image-footer {
+    position: relative;
+    bottom: 78px;
+}
+footer {
+    background-color: #e3e3e3;
+    text-align: center;
+    /*height:100px;
+    padding-bottom: 21px;*/
+}
+
+body {
+    font-family: 'SimplerPro_V3';
+    font-size: 18px;
+}
+@font-face {
+    font-family: 'SimplerPro_V3-Regular_1';
+    src: url('fonts/SimplerPro_V3-Regular_1.ttf') format('truetype');
+}
+
+.img-log-text {
+    text-align: left;
+    font-weight: bold !important;
+}
+
+.card {
+    flex-direction: unset !important;
+    display: unset !important;
 }
