@@ -1,86 +1,284 @@
-﻿
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
-}
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
-
+﻿ .triangular-sec-row {
+     padding-left: 14px;
+ }
 
 .logo-text {
     position: relative;
-    top: 20%;
-    margin-left: 25%;
+    top: 29%;
+    margin-left: 51%;
 }
 
 .logo {
     width: 25% !important;
-    
+}
+
+#particles {
+    width: 100%;
+    height: 14.3vh;
+    overflow: hidden;
+}
+
+#intro {
+    left: 0;
+    width: 100%;
+
+    text-align: center;
 }
 
 
-
-.hader-logo {
-    width: auto;
-}
 u {
     text-decoration: none;
     padding-bottom: 2px;
     border-bottom: #ff0000 1vh solid;
     width: 9%;
 }
+
 .img-underline {
     background-image: url('../Img/640x1550/line.png');
     background-repeat: no-repeat;
-    display: block; 
+    display: block;
+}
+
+.main-logo {
+    max-width: 307px;
+    /*height: 11.4vh;
+    padding-bottom: 16.5vh;*/
+}
+
+.our-service {
+    margin-top: 0px !important;
+
 }
 .triangular-icon {
     background-image: url('../Img/640x1550/arrow.png');
     background-repeat: no-repeat;
-    padding-left: 30px; /* width of the image plus a little extra padding */
+    padding-left: 15px; /* width of the image plus a little extra padding */
     display: block; /* may not need this, but I've found I do */
 }
 
+.mail-to {
+    background-image: url('../Img/640x1550/mail.png');
+    background-repeat: no-repeat;
+    font-weight: bold;
+    padding-left: 45px; /* width of the image plus a little extra padding */
+    display: block; /* may not need this, but I've found I do */
+}
+
+
 .image-footer {
     position: relative;
-    bottom: 78px;
+    bottom: 68px;
 }
+
 footer {
     background-color: #e3e3e3;
     text-align: center;
-    /*height:100px;
-    padding-bottom: 21px;*/
 }
 
 body {
     font-family: 'SimplerPro_V3';
-    font-size: 18px;
+    font-size: 16px;
+    padding-top: 11.5vh;
 }
+
 @font-face {
-    font-family: 'SimplerPro_V3-Regular_1';
+    font-family: 'SimplerPro_V3';
     src: url('fonts/SimplerPro_V3-Regular_1.ttf') format('truetype');
 }
 
 .img-log-text {
-    text-align: left;
+    /*text-align: left;*/
     font-weight: bold !important;
+    margin-top: 3%;
+    width: 69%;
+}
+
+.img-log-text-sec-row {
+    font-weight: bold !important;
+    margin-left: 6%;
+    width: 69%;
+    margin-top: 3%;
+    margin-top: -7%;
+}
+
+.img-log-text-sec-row-analysis {
+    font-weight: bold !important;
+    margin-left: 5%;
+    width: 69%;
+    margin-top: 3%;
+    margin-top: -7%;
+}
+
+.img-log-text-custom {
+    text-align: left;
+    margin-top: 3%;
+    font-weight: bold !important;
+    margin-left: -7%;
+    width: 69%;
 }
 
 .card {
     flex-direction: unset !important;
     display: unset !important;
+    border: unset !important;
 }
+
+.img-log-text-analysis {
+    margin-left: -2% !important;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.roas-text {
+    margin-left: -2% !important;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+a {
+    color: unset !important;
+}
+
+@media (max-width: 990px) {
+    .text-box-grid {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+@media(max-width: 1512px) {
+    .arrow-red {
+        display: none !important;
+        /*position: absolute;
+        height: 48vh;*/
+    }
+
+    .arrow-grey {
+        display: none !important;
+    }
+}
+
+
+@media(min-width: 1512px) {
+    .arrow-red {
+        position: absolute;
+        height: 48vh;
+    }
+
+    .arrow-grey {
+        position: absolute;
+        right: 0vw;
+        top: -13.2vh;
+        width: auto;
+        z-index: -999;
+    }
+}
+
+@media(min-width: 758px) {
+    #particles {
+        width: 100%;
+        height: 14.3vh !important;
+        overflow: hidden;
+    }
+
+    #intro {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+    @media (max-width: 991px) {
+        .our-service {
+            margin-top: 6px !important;
+        }
+        body {
+            padding-top: 3vh !important;
+        }
+        .img-log-text-analysis {
+            margin-left: 2% !important;
+            font-weight: bold;
+            margin-top: 3%;
+        }
+
+        .img-log-text-sec-row-analysis {
+            font-weight: bold !important;
+            margin-left: 10%;
+            width: 69%;
+            margin-top: 3%;
+            margin-top: -7%;
+        }
+        .col-xsm-1 {
+            margin-top: 0%;
+        }
+
+        .roas-text {
+            margin-left: 5% !important;
+            font-weight: bold;
+        }
+
+        .img-log-text {
+            font-weight: bold !important;
+            margin-left: -20%;
+            width: 69%;
+        }
+
+        .text-box {
+            display: table-cell !important;
+        }
+
+        .footer-icons {
+            display: flex !important;
+            padding-left: 22px;
+            display: -webkit-flex !important;
+        }
+
+        .col-xsm-6 {
+            -ms-flex: 0 0 50% !important;
+            flex: 0 0 50% !important;
+            max-width: 50% !important;
+            padding-left: 12vw;
+            padding-right: 1%;
+        }
+
+        .image-footer {
+            bottom: 63px;
+        }
+
+        .img-log-text {
+            font-weight: bold !important;
+            width: unset !important;
+            margin-left: 8% !important;
+        }
+
+        .img-log-text-custom {
+            text-align: left;
+            font-weight: bold !important;
+            margin-left: -1%;
+            width: unset !important;
+        }
+
+        .img-log-text-sec-row {
+            font-weight: bold !important;
+            margin-left: 15% !important;
+            margin-top: -9%;
+        }
+
+        .icon-image {
+            width: 55%;
+        }
+
+        .contact-us {
+            padding-left: 38.63%;
+            margin-top: 6%;
+        }
+
+        .triangular-sec-row {
+            padding-left: 14px;
+        }
+    }
