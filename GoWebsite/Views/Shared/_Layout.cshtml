@@ -2,55 +2,90 @@
 <html>
 <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W6WD2L');</script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6WD2L');</script>
     <!-- End Google Tag Manager -->
 
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff0000">
+    <meta property="og:title" content="GO Internet Marketing" />
+    <meta property="og:description" name="description" content="Digital Markting, Business Result" />
+    <meta property="og:site_name" content="Go" />
+
+
+
+    <!-- Custom fonts for this template -->
+    <link href="~/Content/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <meta name="twitter:title" content="GO Internet Marketing"> 
+    <meta name="twitter:description" content="Digital Markting, Business Result" />
+    @*<meta property="og:image" content='~/Img/go_anim_8_seq_107x100_2.gif'>*@
     <title>@ViewBag.Title Go</title>
+    <link rel="icon" type="image/png" href="~/Img/fabi.png" />
+    <!--[if IE]>
+        <link rel="shortcut icon" href="~/Img/fabi.png" type="image/vnd.microsoft.icon" />
+    <![endif]-->
+    
+    <!-- Plugin CSS -->
+    <link href="~/Content/Custom/magnific-popup.css" rel="stylesheet" />
+    
+    <!-- Custom styles for this template -->
+    <link href="~/Content/Custom/freelancer.css" rel="stylesheet" />
+
+
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 
 </head>
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6WD2L"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
+<body id="page-top">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6WD2L"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 
 
     @RenderBody()
-    
 
 
 
-<footer id="particles">
-    <div id="intro">
-        <img src="~/Img/640x1550/lets go.png" class="img-fluid image-footer"/>        
-    </div>
-</footer>
 
-
-@*<footer id="" class=" py-5 ">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright © Your Website 2019</p>
-         
+    <footer id="particles">
+        <div id="intro">
+            <img src="~/Img/640x1550/lets go.png" class="img-fluid image-footer" />
         </div>
+    </footer>
 
-        
-    </footer>*@
+
+    @*<footer id="" class=" py-5 ">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright © Your Website 2019</p>
+
+            </div>
+
+
+        </footer>*@
 
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-<script src="~/Scripts/plugins/particleground/demo.js"></script>
+    <script src="~/Content/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="~/Scripts/plugins/particleground/demo.js"></script>
+
+    <script src="~/Content/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="~/Scripts/freelancer.min.js"></script>
     @RenderSection("scripts", required: false)
 
 </body>
