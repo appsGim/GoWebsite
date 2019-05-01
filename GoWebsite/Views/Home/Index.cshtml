@@ -7,10 +7,10 @@
     <div class="container">
 
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <img src="~/Img/go_anim_8_seq_107x100_2.gif" class="img-fluid main-logo"/>
+            <img src="~/Img/go_anim_8_seq_107x100_2.gif" class="img-fluid main-logo" />
         </a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-menu  text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            
+
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -22,7 +22,7 @@
                     <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#ourService">Our Services</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contactus">Contact</a>
                 </li>
             </ul>
         </div>
@@ -30,8 +30,8 @@
 </nav>
 
 <!-- Portfolio Grid Section -->
-<section class="portfolio" id="about">
-    
+<section class="portfolio section-mobile-head " id="about">
+
     <div class="container">
         <h3 class="my-4 our-service ">
             <u>About</u>
@@ -65,7 +65,7 @@
 
 
 <!-- About Section -->
-<section class=" mb-0" id="ourService">
+<section class=" mb-0 section-mobile" id="ourService">
     <div class="container">
         <h3 class="my-4 our-service ">
             <u>Our Ser</u>vices
@@ -93,9 +93,11 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-xsm-6">
                 <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img class="img-fluid icon-image" src="~/Img/640x1550/icon ltv.png" alt="">
-                    <div class="text-underimage ">
-                        <p class="img-log-text">The Real TLV</p>
+                    <div class="card-content">
+                        <img class="img-fluid icon-image" src="~/Img/640x1550/icon ltv.png" alt="">
+                        <div class="text-underimage ">
+                            <p class="img-log-text">The Real LTV</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,37 +105,44 @@
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-xsm-6">
                 <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img src="~/Img/640x1550/icon user.png" class="img-fluid icon-image" />
-                    <div class="text-underimage ">
-                        <p class="img-log-text-custom">
-                            User Acquisition
-                        </p>
-                        <p class="img-log-text-sec-row">
-                            at Scale
-                        </p>
+                    <div class="card-content">
+                        <img src="~/Img/640x1550/icon user.png" class="img-fluid icon-image" />
+                        <div class="text-underimage ">
+                            <p class="img-log-text-custom">
+                                User Acquisition
+                            </p>
+                            <p class="img-log-text-sec-row">
+                                at Scale
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xsm-6 ">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+                    <div class="card-content">
+                        <img src="~/Img/640x1550/icon raos.png" class="img-fluid icon-image" />
+                        <div class="text-underimage ">
+                            <p class=" roas-text">Positive ROAS</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-xsm-6 ">
                 <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img src="~/Img/640x1550/icon raos.png" class="img-fluid icon-image" />
-                    <div class="text-underimage ">
-                        <p class=" roas-text">Positive ROAS</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xsm-6 ">
-                <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img src="~/Img/640x1550/icon factor.png" class="img-fluid icon-image" />
-                    <div class="text-underimage ">
-                        <p class="img-log-text-analysis">
-                            Factor Analysis
-                        </p>
-                        <p class="img-log-text-sec-row-analysis">
-                            of Creative
-                        </p>
+                    <div class="card-content">
+                        <img src="~/Img/640x1550/icon factor.png" class="img-fluid icon-image" />
+                        <div class="text-underimage ">
+                            <p class="img-log-text-analysis">
+                                Factor Analysis
+                            </p>
+                            <p class="img-log-text-sec-row-analysis">
+                                of Creative
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,22 +154,24 @@
 </section>
 
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <div class="container">
-                <div class="contact-us">
-                    <a href="mailto:Dubi.s@gim.co.il">
-                        <p class="mail-to">
-                            Contact Us
-                        </p>
-                    </a>
-                </div>
-            </div>
-        </section>
-        @*<div class="row container">
-        
+<!-- Contact Section -->
+<section  class="section-mobile">
+    
+    <div class="container">
+        <div class="contact-us" id="contactus">
+            <a href="mailto:info@gim.co.il">
+                <h3 class="mail-to my-4">
+                    Contact Us
+                </h3>
+            </a>
+        </div>
+    </div>
 
-        </div>*@
+</section>
+@*<div class="row container">
+
+
+    </div>*@
 
 
 

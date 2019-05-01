@@ -50,7 +50,7 @@ u {
  }
 .our-service {
     margin-top: 0px !important;
-
+    margin-bottom: -81px;
 }
 .triangular-icon {
     background-image: url('../Img/640x1550/arrow.png');
@@ -61,9 +61,10 @@ u {
 
 .mail-to {
     background-image: url('../Img/640x1550/mail.png');
+    padding-bottom: 3rem;
     background-repeat: no-repeat;
     font-weight: bold;
-    padding-left: 45px; /* width of the image plus a little extra padding */
+    padding-left: 45px; 
     display: block; /* may not need this, but I've found I do */
 }
 
@@ -127,9 +128,9 @@ body {
 
  }
 
-.card {
+/*.card {
     height: 29vh;
-}
+}*/
 
 .img-log-text-analysis {
     margin-left: 21% !important;
@@ -148,8 +149,7 @@ a {
 }
 
 .contact-us {
-    padding-left: 44.63%;
-    
+    padding-left: 42.33%;
     margin-top: 6%;
 }
 
@@ -199,8 +199,66 @@ a {
     }
 }
 
+ section  {
+     padding: 7rem 0;
+ }
 
+.card-content {
+    min-height: 245px;
+    height: auto;
+    width: 100%;
+}
+
+.text-underimage p {
+    font-size: 1rem;
+}
+@media(max-width: 1199px) {
+    .text-underimage {
+        padding-top: 16px;
+        padding-right: -4px;
+        /* margin-left: -12px !important; */
+    }
+
+    .roas-text {
+        margin-left: 37px !important;
+        font-weight: bold;
+        margin-top: 3%;
+    }
+
+    .img-log-text {
+        /* text-align: left; */
+        font-weight: bold !important;
+        margin-top: 2%;
+        width: 69%;
+        margin-left: 39px;
+    }
+
+    .img-log-text-custom {
+        text-align: left;
+        margin-top: 3%;
+        font-weight: bold !important;
+        margin-left: 28px;
+        width: 69%;
+    }
+    .img-log-text-sec-row {
+        font-weight: bold !important;
+        margin-left: 59px;
+        width: 69%;
+        margin-top: 3%;
+        margin-top: -7%;
+    }
+
+    .card-content {
+        min-height: 220px;
+        height: auto;
+        width: 100%;
+    }
+}
+/*footer { padding: 0rem 0 !important; }*/
 @media(min-width: 758px) {
+    /*footer {
+        padding: 4rem 0 !important;
+    }*/
     #particles {
         width: 100%;
         height: 14.3vh !important;
@@ -218,14 +276,31 @@ a {
     margin-left: 25.2%;
     margin-top: 34px;
 }
-
+ .section-mobile {
+     padding: 0rem 0 !important;
+ }
 
     @media (max-width: 991px) {
+        .card-content {
+            height: 37vh;
+        }
+        .section-mobile {
+            padding: 2rem 0 !important;
+        }
 
+        .section-mobile-head {
+            padding: 6rem 0 !important;
+        }
+
+
+        section  {
+            padding: unset !important;
+        }
 
         .bg-menu {
             background-color: #ff0000 !important;
         }
+        
         .main-logo {
             max-width: 207px;
         }
@@ -239,14 +314,14 @@ a {
             padding-top: 3vh !important;
         }
         .img-log-text-analysis {
-            margin-left: 25% !important;
+            margin-left: 29% !important;
             font-weight: bold;
             margin-top: 3%;
         }
 
         .img-log-text-sec-row-analysis {
             font-weight: bold !important;
-            margin-left: 31%;
+            margin-left: 35%;
             width: 69%;
             /*margin-top: 3%;*/
             margin-top: -7%;
@@ -256,7 +331,7 @@ a {
         }
 
         .roas-text {
-            margin-left: -7% !important;
+            margin-left: -3% !important;
             text-align: center;
             font-weight: bold;
         }
@@ -292,31 +367,31 @@ a {
         .img-log-text {
             font-weight: bold !important;
             width: unset !important;
-            margin-left: 28% !important;
+            margin-left: 32% !important;
         }
 
         .img-log-text-custom {
             /*text-align: left;*/
             font-weight: bold !important;
-            margin-left: 23%;
+            margin-left: 27%;
             width: unset !important;
         }
 
         .img-log-text-sec-row {
             font-weight: bold !important;
-            margin-left: 32% !important;
+            margin-left: 37% !important;
             margin-top: -7%;
             
         }
 
-        
+
         .icon-image {
             width: 40%;
-            margin-left: 25.2%;
+            margin-left: 30.0%;
         }
 
         .contact-us {
-            padding-left: 38.63%;
+            padding-left: 21%;
             margin-top: 6%;
         }
 

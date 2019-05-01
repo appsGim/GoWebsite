@@ -16,9 +16,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ff0000">
-    <meta property="og:title" content="GO Internet Marketing" />
-    <meta property="og:description" name="description" content="Digital Markting, Business Result" />
-    <meta property="og:site_name" content="Go" />
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="http://onepager.gim.co.il">
+    <meta name="og:image:secure_url" content="http://onepager.gim.co.il/Img/fabi.png">
+    <meta property="og:title" content="GO Digital Marketing" />
+    <meta property="og:description" name="description" content="Digital Marketing. Business Results." />
+    <meta property="og:site_name" content="GO Digital Marketing" />
+
+
 
 
 
@@ -26,18 +31,17 @@
     <link href="~/Content/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <meta name="twitter:title" content="GO Internet Marketing"> 
-    <meta name="twitter:description" content="Digital Markting, Business Result" />
+    <meta name="twitter:title" content="GO Digital Marketing">
+    <meta name="twitter:description" content="Digital Marketing. Business Results." />
     @*<meta property="og:image" content='~/Img/go_anim_8_seq_107x100_2.gif'>*@
-    <title>@ViewBag.Title Go</title>
+    <title>@ViewBag.Title GO Digital Marketing</title>
     <link rel="icon" type="image/png" href="~/Img/fabi.png" />
     <!--[if IE]>
         <link rel="shortcut icon" href="~/Img/fabi.png" type="image/vnd.microsoft.icon" />
     <![endif]-->
-    
     <!-- Plugin CSS -->
     <link href="~/Content/Custom/magnific-popup.css" rel="stylesheet" />
-    
+
     <!-- Custom styles for this template -->
     <link href="~/Content/Custom/freelancer.css" rel="stylesheet" />
 
@@ -62,9 +66,11 @@
 
 
 
-    <footer id="particles">
+    <footer id="particles" >
         <div id="intro">
-            <img src="~/Img/640x1550/lets go.png" class="img-fluid image-footer" />
+            <a href="mailto:info@gim.co.il">
+            <img src="~/Img/640x1550/lets go.png" class="img-fluid image-footer"/>
+            </a>
         </div>
     </footer>
 
@@ -85,7 +91,7 @@
     <script src="~/Scripts/plugins/particleground/demo.js"></script>
 
     <script src="~/Content/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="~/Scripts/freelancer.min.js"></script>
+    <script src="~/Scripts/freelancer.js"></script>
     @RenderSection("scripts", required: false)
 
 </body>
